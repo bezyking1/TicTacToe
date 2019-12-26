@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr;
+  width: 40%;
+  height: 50vh;
+  margin: 5rem auto;
+}
+.d1 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d2 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d3 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-left: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d4 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d5 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d6 {
+  cursor: pointer;
+  border-bottom: #ffffff solid 1px;
+  border-left: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d7 {
+  cursor: pointer;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d8 {
+  cursor: pointer;
+  border-right: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.d9 {
+  cursor: pointer;
+  border-left: #ffffff solid 1px;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
